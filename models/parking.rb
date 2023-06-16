@@ -1,10 +1,8 @@
-require 'byebug'
 class Parking
   def initialize(initial_price, initial_hours)
     @initial_price = initial_price
     @initial_hours = initial_hours
     @vehicles = []
-    byebug
   end
 
   def add_vehicle
